@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-02-04T12:07:02.416717500Z</date>
+  <millis>1612440422416</millis>
+  <nanos>717500</nanos>
+  <sequence>0</sequence>
+  <logger>beggining.LoggingExpl</logger>
+  <level>SEVERE</level>
+  <class>beggining.exception.ATest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>на ноль нельзя, емае</message>
+  <exception>
+    <message>java.lang.ArithmeticException: / by zero</message>
+    <frame>
+      <class>beggining.exception.ATest</class>
+      <method>main</method>
+      <line>29</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2021-02-04T12:07:02.540549Z</date>
+  <millis>1612440422540</millis>
+  <nanos>549000</nanos>
+  <sequence>1</sequence>
+  <logger>beggining.LoggingExpl</logger>
+  <level>SEVERE</level>
+  <class>beggining.exception.ATest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>севере епт</message>
+</record>
+</log>
